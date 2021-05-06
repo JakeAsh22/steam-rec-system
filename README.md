@@ -2,7 +2,7 @@
 
 by Jake Ash
 
-<p align="center"><img src="Images/steam_pic.jpeg" width="400" height="250" /></p>
+<p align="center"><img src="images/steam_pic.jpeg" width="400" height="250" /></p>
 
 # Overview
 This project contains the work of developing a recommendation system for the video game digital distribution site, Steam.
