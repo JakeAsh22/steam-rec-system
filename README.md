@@ -17,6 +17,7 @@ The data was provided by Julian McAuley, an associate professor at University of
 * product bundles
 * pricing information
 This data can be reformatted to recommend new games based on the games the user already owns.
+https://cseweb.ucsd.edu/~jmcauley/datasets.html#steam_data
 
 # Data Cleaning
 The data provided is saved in JSON format, however it uses ' instead of " when saving information. However, professor McAuley includes a short code snippit that properly retrieves the information for you. Then, save this data to a pandas DataFrame. From here, I then reformat the data to retrieve the game id, and create a new user_id. Following this, I then merge explode the game id list in the dataframe, so each game gets its own row in the dataframe. We can then work with this new dataframe for modeling
