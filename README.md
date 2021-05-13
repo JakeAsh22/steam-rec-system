@@ -39,7 +39,7 @@ Here, we have the same data but viewed as quarterly. We can see the steep drop d
 
 I create multiple Collaborative Filtering Models. However, a majority of these models predict 1's for every column instead of finding commonalities. So, the three models that actually predict values, SVD NMF and SVD++, are the 3 models that are compared. After finding their RMSE, SVD++ has the lowest, so that will be the model we use.
 <br />
-<img src="images/models.png" width="400" height="250" />
+<img src="images/models.PNG" width="400" height="250" />
 <br />
 
 
