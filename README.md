@@ -11,7 +11,7 @@ This project contains the work of developing a recommendation system for the vid
 Video game sales peak during the winter holiday season, but fall off for the rest of the year. Can a recommendation system be created to drive sales year round for the game distribution companies? 
 While this is the main goal, the recommendation system has other implimentations as well. It can also provide exposure for small, Indie game companies when it recommends their product to other users. They can also push their marketing campaign onto the users that get recommended their game.
 <br />
-<img src="images/publishers.png" width="400" height="400" /><br/>
+<img src="images/publishers.png" width="600" height="400" /><br/>
 As we can see in the graph above, AAA studios like Ubisoft dominate the game market. This makes it harder for the average user to find a lesser known indie games that may be the perfect game for them.
 # Data
 The data was provided by Julian McAuley, an associate professor at University of California San Diego. The website provides 4 datasets in JSON format, which include:
