@@ -10,6 +10,7 @@ This project contains the work of developing a recommendation system for the vid
 # Business Problem
 Video game sales peak during the winter holiday season, but fall off for the rest of the year. Can a recommendation system be created to drive sales year round for the game distribution companies? 
 While this is the main goal, the recommendation system has other implimentations as well. It can also provide exposure for small, Indie game companies when it recommends their product to other users. They can also push their marketing campaign onto the users that get recommended their game.
+<br />
 <img src="images/publishers.png" width="400" height="250" /><br/>
 As we can see in the graph above, AAA studios like Ubisoft dominate the game market. This makes it harder for the average user to find a lesser known indie games that may be the perfect game for them.
 # Data
@@ -26,13 +27,16 @@ The data provided is saved in JSON format, however it uses ' instead of " when s
 
 # EDA
 Now, lets look at some of the trends in the data. Here, we can see which months sell the most amount of video games:
+<br />
 <img src="images/months.png" width="400" height="250" />
 This shows that the winter months sell the most amount of games, and how little the beginning of the year sells. Creating this recommendation system will drive sales throughout the year.
+<br />
 <img src="images/quarter.png" width="400" height="250" />
 Here, we have the same data but viewed as quarterly. We can see the steep drop during Q1, compared to Q4, so this system will suggest games to users during this time to increase Q1 sales.
 # Model Selection
 
 I create multiple Collaborative Filtering Models. However, a majority of these models predict 1's for every column instead of finding commonalities. So, the three models that actually predict values, SVD NMF and SVD++, are the 3 models that are compared. After finding their RMSE, SVD++ has the lowest, so that will be the model we use.
+<br />
 <img src="images/models.png" width="400" height="250" />
 
 
