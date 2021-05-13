@@ -29,15 +29,18 @@ The data provided is saved in JSON format, however it uses ' instead of " when s
 Now, lets look at some of the trends in the data. Here, we can see which months sell the most amount of video games:
 <br />
 <img src="images/months.png" width="400" height="250" />
+<br />
 This shows that the winter months sell the most amount of games, and how little the beginning of the year sells. Creating this recommendation system will drive sales throughout the year.
 <br />
 <img src="images/quarter.png" width="400" height="250" />
+<br />
 Here, we have the same data but viewed as quarterly. We can see the steep drop during Q1, compared to Q4, so this system will suggest games to users during this time to increase Q1 sales.
 # Model Selection
 
 I create multiple Collaborative Filtering Models. However, a majority of these models predict 1's for every column instead of finding commonalities. So, the three models that actually predict values, SVD NMF and SVD++, are the 3 models that are compared. After finding their RMSE, SVD++ has the lowest, so that will be the model we use.
 <br />
 <img src="images/models.png" width="400" height="250" />
+<br />
 
 
 # Predictions
